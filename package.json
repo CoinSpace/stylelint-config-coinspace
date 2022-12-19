@@ -7,7 +7,7 @@
     "test": "eslint index.js"
   },
   "keywords": [
-    "eslint"
+    "stylelint"
   ],
   "repository": {
     "type": "git",
