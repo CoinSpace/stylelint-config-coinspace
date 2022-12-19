@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-config-coinspace",
+  "version": "0.0.1",
+  "description": "Coin Wallet shared stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoinSpace/stylelint-config-coinspace.git"
+  },
+  "author": "Coin Wallet <support@coin.space> (https://coin.space/)",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-html": "^1.5.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-coinspace": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "coinspace"
+    ],
+    "env": {
+      "node": true
+    }
+  }
+}
