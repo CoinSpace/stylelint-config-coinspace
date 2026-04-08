@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/CoinSpace/stylelint-config-coinspace.git"
+    "url": "git+https://github.com/CoinSpace/stylelint-config-coinspace.git"
   },
   "author": "Coin Wallet <support@coin.space> (https://coin.space/)",
   "license": "MIT",
